@@ -1,12 +1,15 @@
 {
   "name": "test-button-hmy",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.2",
+  "main": "./dist/button.umd.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "https://github.com/0little/test-npm.git"
